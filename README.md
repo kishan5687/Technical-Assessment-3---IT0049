@@ -10,15 +10,9 @@
 This application is an internal team dashboard tool that separates a filtered "Today's Tasks" operational view from a complete, unfiltered structural list of logged items. The data layer uses a shared relational model format using PHP MVC conventions.
 
 ## Live Application URL
-* Hosted Version: [Insert Hosted Live Deployment URL Link Here]
+* Hosted Version: [Wala pa po]
 
 ## Local Setup Instructions
-
-1. **Clone the Repository**
-   ```bash
-   git clone <your-repository-url>
-   cd <project-folder-name>
-   ```
 
 2. **Configure Database Connection**
    * Create a database named `tasks_db` in your local phpMyAdmin configuration setup.
