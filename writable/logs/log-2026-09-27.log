@@ -1,0 +1,156 @@
+ERROR - 2026-09-27 13:43:40 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#9 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#10 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Migrate->run(Array)
+#11 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#12 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#13 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#14 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#8 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#9 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#12 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#13 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#14 {main}
+ERROR - 2026-09-27 13:43:47 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\Database.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\Config.php(111): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\Seeder.php(103): CodeIgniter\Database\Config::forge('default')
+#5 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Commands\Database\Seed.php(71): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#6 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#9 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#10 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\Database.php(74): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\Config.php(111): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Database\Seeder.php(103): CodeIgniter\Database\Config::forge('default')
+#4 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Commands\Database\Seed.php(71): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#5 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Seed->run(Array)
+#6 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#7 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#8 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#9 C:\Users\kisha\Downloads\TECHNICAL ASSESSMENT 3\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#10 {main}
+CRITICAL - 2026-09-27 13:43:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+[Method: CLI, Route: db:seed/MainSeeder]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\Database.php(74): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(111): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 SYSTEMPATH\Database\Seeder.php(103): CodeIgniter\Database\Config::forge('default')
+ 4 SYSTEMPATH\Commands\Database\Seed.php(71): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+ 5 SYSTEMPATH\CLI\Commands.php(72): CodeIgniter\Commands\Database\Seed->run([...])
+ 6 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 7 SYSTEMPATH\Boot.php(444): CodeIgniter\CLI\Console->run()
+ 8 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 9 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-09-27 13:46:22 --> Table 'users' already exists
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('CREATE TABLE `users` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`username` VARCHAR(50) NOT NULL UNIQUE,
+	`full_name` VARCHAR(100) NOT NULL,
+	`email` VARCHAR(100) NOT NULL,
+	`created_at` DATETIME NOT NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `users` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`username` VARCHAR(50) NOT NULL UNIQUE,
+	`full_name` VARCHAR(100) NOT NULL,
+	`email` VARCHAR(100) NOT NULL,
+	`created_at` DATETIME NOT NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `users` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`username` VARCHAR(50) NOT NULL UNIQUE,
+	`full_name` VARCHAR(100) NOT NULL,
+	`email` VARCHAR(100) NOT NULL,
+	`created_at` DATETIME NOT NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 4 SYSTEMPATH\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `users` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`username` VARCHAR(50) NOT NULL UNIQUE,
+	`full_name` VARCHAR(100) NOT NULL,
+	`email` VARCHAR(100) NOT NULL,
+	`created_at` DATETIME NOT NULL,
+	CONSTRAINT `pk_users` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci')
+ 5 APPPATH\Database\Migrations\2026-09-27-000001_CreateUsersTable.php(34): CodeIgniter\Database\Forge->createTable('users')
+ 6 SYSTEMPATH\Database\MigrationRunner.php(1014): App\Database\Migrations\CreateUsersTable->up()
+ 7 SYSTEMPATH\Database\MigrationRunner.php(202): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+ 8 SYSTEMPATH\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(null)
+ 9 SYSTEMPATH\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+10 SYSTEMPATH\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+11 SYSTEMPATH\CLI\Commands.php(72): CodeIgniter\Commands\Database\Migrate->run([])
+12 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', [])
+13 SYSTEMPATH\Boot.php(444): CodeIgniter\CLI\Console->run()
+14 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+15 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2026-09-27 13:52:31 --> Duplicate entry 'raina_kishan' for key 'username'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `users` (`username`, `full_name`, `email`, `created_at`) VALUES (\'raina_kishan\', \'QUEJADA, RAINA KISHAN S.\', \'raina.quejada@student.feutech.edu.ph\', \'2026-09-27 13:52:31\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`username`, `full_name`, `email`, `created_at`) VALUES (\'raina_kishan\', \'QUEJADA, RAINA KISHAN S.\', \'raina.quejada@student.feutech.edu.ph\', \'2026-09-27 13:52:31\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`username`, `full_name`, `email`, `created_at`) VALUES (\'raina_kishan\', \'QUEJADA, RAINA KISHAN S.\', \'raina.quejada@student.feutech.edu.ph\', \'2026-09-27 13:52:31\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`username`, `full_name`, `email`, `created_at`) VALUES (:username:, :full_name:, :email:, :created_at:)', [...], false)
+ 5 APPPATH\Database\Seeds\MainSeeder.php(18): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\Database\Seeder.php(155): App\Database\Seeds\MainSeeder->run()
+ 7 SYSTEMPATH\Commands\Database\Seed.php(79): CodeIgniter\Database\Seeder->call('App\\Database\\Seeds\\MainSeeder')
+ 8 SYSTEMPATH\CLI\Commands.php(72): CodeIgniter\Commands\Database\Seed->run([])
+ 9 SYSTEMPATH\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('db:seed', [...])
+10 SYSTEMPATH\Boot.php(444): CodeIgniter\CLI\Console->run()
+11 SYSTEMPATH\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+12 ROOTPATH\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-09-27 13:57:09 --> Error: Class "App\Models\UserModel" not found
+[Method: GET, Route: profile]
+in APPPATH\Controllers\UserController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\UserController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kisha\\Downloads\\TECHNICAL ASSESSMENT 3\\public\\index.php')
+CRITICAL - 2026-09-27 14:03:34 --> Error: Class "App\Models\UserModel" not found
+[Method: GET, Route: profile]
+in APPPATH\Controllers\UserController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\UserController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kisha\\Downloads\\TECHNICAL ASSESSMENT 3\\public\\index.php')

@@ -1,0 +1,60 @@
+CRITICAL - 2026-10-07 11:30:51 --> ErrorException: Undefined array key "full_name"
+[Method: GET, Route: profile]
+in APPPATH\Views\profile.php on line 10.
+ 1 APPPATH\Views\profile.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "full_name"', 'C:\\Users\\kisha\\Downloads\\TECHNICAL ASSESSMENT 3\\app\\Views\\profile.php', 10)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\kisha\\Downloads\\TECHNICAL ASSESSMENT 3\\app\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(17): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kisha\\Downloads\\TECHNICAL ASSESSMENT 3\\public\\index.php')
+CRITICAL - 2026-10-07 12:02:23 --> ErrorException: Undefined array key "full_name"
+[Method: GET, Route: profile]
+in APPPATH\Views\profile.php on line 10.
+ 1 APPPATH\Views\profile.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "full_name"', 'C:\\Users\\kisha\\Downloads\\TECHNICAL ASSESSMENT 3\\app\\Views\\profile.php', 10)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\kisha\\Downloads\\TECHNICAL ASSESSMENT 3\\app\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(17): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kisha\\Downloads\\TECHNICAL ASSESSMENT 3\\public\\index.php')
+CRITICAL - 2026-10-07 12:02:53 --> ErrorException: Undefined array key "full_name"
+[Method: GET, Route: profile]
+in APPPATH\Views\profile.php on line 10.
+ 1 APPPATH\Views\profile.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "full_name"', 'C:\\Users\\kisha\\Downloads\\TECHNICAL ASSESSMENT 3\\app\\Views\\profile.php', 10)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\kisha\\Downloads\\TECHNICAL ASSESSMENT 3\\app\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(17): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kisha\\Downloads\\TECHNICAL ASSESSMENT 3\\public\\index.php')
+CRITICAL - 2026-10-07 12:03:07 --> ErrorException: Undefined array key "full_name"
+[Method: GET, Route: profile]
+in APPPATH\Views\profile.php on line 10.
+ 1 APPPATH\Views\profile.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "full_name"', 'C:\\Users\\kisha\\Downloads\\TECHNICAL ASSESSMENT 3\\app\\Views\\profile.php', 10)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\kisha\\Downloads\\TECHNICAL ASSESSMENT 3\\app\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\UserController.php(17): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\kisha\\Downloads\\TECHNICAL ASSESSMENT 3\\public\\index.php')
