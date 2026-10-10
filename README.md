@@ -10,7 +10,7 @@
 This application is an internal team dashboard tool that separates a filtered "Today's Tasks" operational view from a complete, unfiltered structural list of logged items. The data layer uses a shared relational model format using PHP MVC conventions.
 
 ## Live Application URL
-* Hosted Version: [URL Link]
+* Hosted Version: [https://quejada.page.gd/]
 
 ## Local Setup Instructions
 
